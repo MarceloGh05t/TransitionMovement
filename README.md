@@ -5,15 +5,13 @@ Atualização 03/02/2024
 
 Ações incluídas no Behavior:
 
-
-
 - Start
 
-O que faz: Ativa o comportamento.
+  O que faz: Ativa o comportamento.
 
 - Stop
   
-O que faz: Desativa o comportamento.
+  O que faz: Desativa o comportamento.
 
 - change_end_pointx
 
