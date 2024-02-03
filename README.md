@@ -33,6 +33,7 @@ O que faz: Muda o tipo de movimento para vertical.
 
 O que faz: Muda o valor da aceleração.
 
+===================
 
 CONDIÇÕES
 
