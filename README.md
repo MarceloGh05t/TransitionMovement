@@ -3,7 +3,7 @@ Behavior Construct 2 - Cria comportamento de movimento de transição.
 
 Atualização 03/02/2024
 
-Ações incluídas no Behavior:
+AÇÕES:
 
 - Start
 
@@ -28,4 +28,11 @@ O que faz: Muda o tipo de movimento para horizontal.
 - change_vertical_movement
 
 O que faz: Muda o tipo de movimento para vertical.
+
+- change_acceleration
+
+O que faz: Muda o valor da aceleração.
+
+
+CONDIÇÕES
 
