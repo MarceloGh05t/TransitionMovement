@@ -37,3 +37,53 @@ O que faz: Muda o valor da aceleração.
 
 CONDIÇÕES
 
+- IsMoving
+
+O que faz: Checa se está se movimentando.
+
+- in_destiny
+
+O que faz: Checa se chegou no destino.
+
+- enabled
+
+O que faz: Checa se o comportamento está ativado.
+
+- is_horizontal_moving
+
+O que faz: Checa se está se movimentando horizontalmente
+
+- is_vertical_moving
+
+O que faz: Checa se está se movimentando verticalmente.
+
+- horizontal_type
+
+O que faz: Checa se o tipo de movimento na propriedade é horizontal.
+
+- vertical_type
+
+O que faz: Checa se o tipo de movimento na propriedade é vertical.
+
+========================
+
+EXPRESSÕES:
+
+- end_pointX
+
+O que faz: Retorna o valor do ponto final x para o movimento horizontal.
+
+- end_pointY
+
+O que faz: Retorna o valor do ponto final y para o movimento vertical.
+
+- acceleration
+
+O que faz: Retorna o valor da aceleração do movimento em pixel.
+
+- type_movement
+
+O que faz: Retorna o string com o tipo de movimento (horizontal ou vertical).
+
+
+
