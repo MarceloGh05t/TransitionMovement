@@ -1,4 +1,4 @@
-﻿// ECMAScript 5 strict mode
+// ECMAScript 5 strict mode
 "use strict";
 
 assert2(cr, "cr namespace not created");
@@ -106,6 +106,7 @@ cr.behaviors.TransitionMovement = function(runtime)
 					this.inst.x -= this.acceleration * dt // coloquei pelo dt para atulizar pelo intervalo de tempo entre um tick como o dt é uma fracao tive que colocar mais casas na aceleração
 					this.inst.set_bbox_changed()
 					this.moving = true
+					this.destiny = false
 			
 					
 						if (this.properties[1] >= this.inst.x){// se o movimento, quando passar o ponto final ou for chegar no ponto 
@@ -123,6 +124,7 @@ cr.behaviors.TransitionMovement = function(runtime)
 				this.inst.x += this.acceleration * dt 
 				this.inst.set_bbox_changed()
 				this.moving = true
+				this.destiny = false
 			
 				
 					if (this.properties[1] <= this.inst.x){// se o movimento, quando passar o ponto final ou for chegar no ponto 
@@ -143,6 +145,7 @@ cr.behaviors.TransitionMovement = function(runtime)
 				this.inst.y -= this.acceleration * dt  
 				this.inst.set_bbox_changed()
 				this.moving = true
+				this.destiny = false
 				
 					if (this.properties[2] >= this.inst.y){// se o movimento, quando passar o ponto final ou for chegar no ponto 
 						
@@ -157,7 +160,8 @@ cr.behaviors.TransitionMovement = function(runtime)
 				this.inst.y += this.acceleration * dt  
 				this.inst.set_bbox_changed()
 				this.moving = true
-					
+				this.destiny = false
+				
 					if (this.properties[2] <= this.inst.y){// se o movimento, quando passar o ponto final ou for chegar no ponto 
 					
 						this.inst.y  = this.properties[2] //vai setar exatamente para o ponto final, se tiver passado dele
